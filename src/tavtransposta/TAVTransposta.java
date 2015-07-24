@@ -35,7 +35,7 @@ public class TAVTransposta {
             Process p = Runtime.getRuntime().exec("Rscript scriptTransposicao.r");  //transpoe a TAV
             p.waitFor();                                                            //aguarda fim do processo
 
-           ct.reduzArff("Tdiscover.txt", "TRdiscover.txt");
+            ct.reduzArff("Tdiscover.txt", "TRdiscover.txt");
 
             System.out.println("criando arff com TAV transposta");
             ct.unirDados("TRdiscover.txt", "discover.arff");                         //cria arff com a tav transposta
