@@ -11,7 +11,6 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import reduzarff.ReduzArff;
 import transpor_arff.CreateTAV;
 
 /**
@@ -36,7 +35,7 @@ public class TAVTransposta {
             Process p = Runtime.getRuntime().exec("Rscript scriptTransposicao.r");  //transpoe a TAV
             p.waitFor();                                                            //aguarda fim do processo
 
-            new ReduzArff().reduzArff("Tdiscover.txt", "TRdiscover.txt");
+           ct.reduzArff("Tdiscover.txt", "TRdiscover.txt");
 
             System.out.println("criando arff com TAV transposta");
             ct.unirDados("TRdiscover.txt", "discover.arff");                         //cria arff com a tav transposta
