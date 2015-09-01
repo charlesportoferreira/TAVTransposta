@@ -1,1 +1,2 @@
-@ATTRIBUTE classe {612,111,041,211,388,185,344}
+@ATTRIBUTE classe {corn,grain,acq,wheat,ship,money-fx,interest,earn,crude,trade}
+@ATTRIBUTE classe {corn,grain,acq,wheat,ship,money-fx,interest,earn,crude,trade}
