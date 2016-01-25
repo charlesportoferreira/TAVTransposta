@@ -1,2 +1,0 @@
-@ATTRIBUTE classe {corn,grain,acq,wheat,ship,money-fx,interest,earn,crude,trade}
-@ATTRIBUTE classe {corn,grain,acq,wheat,ship,money-fx,interest,earn,crude,trade}

@@ -1,1 +1,31 @@
-java -jar -Xmx3600M TAVTransposta.jar 
+java -jar -Xmx3000M TAVTransposta.jar &&
+java -jar AlgoritmoGeneticoClusterSMO.jar 500 1 &&
+java -jar AlgoritmoGeneticoClusterSMO.jar 500 1 &&
+java -jar AlgoritmoGeneticoClusterSMO.jar 500 1 &&
+java -jar AlgoritmoGeneticoClusterSMO.jar 500 1 &&
+java -jar AlgoritmoGeneticoClusterSMO.jar 500 1 &&
+java -jar AlgoritmoGeneticoClusterSMO.jar 500 1 &&
+java -jar AlgoritmoGeneticoClusterSMO.jar 500 1 &&
+java -jar AlgoritmoGeneticoClusterSMO.jar 500 1 &&
+java -jar AlgoritmoGeneticoClusterSMO.jar 500 1 &&
+java -jar AlgoritmoGeneticoClusterSMO.jar 500 1 &&
+java -jar AlgoritmoGeneticoClusterHYP.jar 500 1 &&
+java -jar AlgoritmoGeneticoClusterHYP.jar 500 1 &&
+java -jar AlgoritmoGeneticoClusterHYP.jar 500 1 &&
+java -jar AlgoritmoGeneticoClusterHYP.jar 500 1 &&
+java -jar AlgoritmoGeneticoClusterHYP.jar 500 1 &&
+java -jar AlgoritmoGeneticoClusterHYP.jar 500 1 &&
+java -jar AlgoritmoGeneticoClusterHYP.jar 500 1 &&
+java -jar AlgoritmoGeneticoClusterHYP.jar 500 1 &&
+java -jar AlgoritmoGeneticoClusterHYP.jar 500 1 &&
+java -jar AlgoritmoGeneticoClusterHYP.jar 500 1 &&
+java -jar AlgoritmoGeneticoClusterIBK.jar 500 1 &&
+java -jar AlgoritmoGeneticoClusterIBK.jar 500 1 &&
+java -jar AlgoritmoGeneticoClusterIBK.jar 500 1 &&
+java -jar AlgoritmoGeneticoClusterIBK.jar 500 1 &&
+java -jar AlgoritmoGeneticoClusterIBK.jar 500 1 &&
+java -jar AlgoritmoGeneticoClusterIBK.jar 500 1 &&
+java -jar AlgoritmoGeneticoClusterIBK.jar 500 1 &&
+java -jar AlgoritmoGeneticoClusterIBK.jar 500 1 &&
+java -jar AlgoritmoGeneticoClusterIBK.jar 500 1 &&
+java -jar AlgoritmoGeneticoClusterIBK.jar 500 1 
